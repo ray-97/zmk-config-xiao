@@ -21,11 +21,11 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-         &kp ESC     &kp N1            &kp N2          &kp N3     &kp N4  &kp N5  &kp N6         &kp N7           &kp N8             &kp N9     &kp N0       &bt BT_CLR
-       &kp GRAVE      &kp Q             &kp W           &kp F      &kp P   &kp B   &kp J          &kp L            &kp U              &kp Y      &none     &kp CAPSLOCK
-         &kp TAB      &kp A             &kp R           &kp S      &kp T   &kp G   &kp M          &kp N            &kp E              &kp I      &kp O     &kp LEFT_ALT
-           &mo 2      &kp Z             &kp X           &kp C      &kp D   &kp V   &kp K          &kp H        &kp COMMA            &kp DOT      &none            &mo 1
-&kp LEFT_CONTROL  &kp ENTER  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp SPACE   &mo 1   &mo 2  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp LC(B)  &kp RIGHT_SHIFT
+         &kp ESC     &kp N1            &kp N2          &kp N3     &kp N4  &kp N5  &kp N6         &kp N7           &kp N8             &kp N9     &kp N0         &bt BT_CLR
+       &kp GRAVE      &kp Q             &kp W           &kp F      &kp P   &kp B   &kp J          &kp L            &kp U              &kp Y      &none       &kp CAPSLOCK
+         &kp TAB      &kp A             &kp R           &kp S      &kp T   &kp G   &kp M          &kp N            &kp E              &kp I      &kp O       &kp LEFT_ALT
+&kp LEFT_CONTROL      &kp Z             &kp X           &kp C      &kp D   &kp V   &kp K          &kp H        &kp COMMA            &kp DOT      &none  &kp RIGHT_CONTROL
+  &kp LEFT_SHIFT  &kp ENTER  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp SPACE   &mo 1   &mo 2  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp LC(B)    &kp RIGHT_SHIFT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
