@@ -21,9 +21,9 @@
             // |    2   |  2  | f   | 6    | 4    | 1    |                    | 2    | 1     | w     | s    | n     |  a    |
 
             bindings = <
-         &kp ESC     &kp N1            &kp N2          &kp N3     &kp N4  &kp N5  &kp N6         &kp N7           &kp N8             &kp N9     &kp N0         &bt BT_CLR
+         &kp ESC     &kp N1            &kp N2          &kp N3     &kp N4  &kp N5  &kp N6         &kp N7           &kp N8             &kp N9     &kp N0      &kp RIGHT_ALT
        &kp GRAVE      &kp Q             &kp W           &kp F      &kp P   &kp B   &kp J          &kp L            &kp U              &kp Y      &none       &kp CAPSLOCK
-         &kp TAB      &kp A             &kp R           &kp S      &kp T   &kp G   &kp M          &kp N            &kp E              &kp I      &kp O       &kp LEFT_ALT
+         &kp TAB      &kp A             &kp R           &kp S      &kp T   &kp G   &kp M          &kp N            &kp E              &kp I      &kp O              &mo 1
 &kp LEFT_CONTROL      &kp Z             &kp X           &kp C      &kp D   &kp V   &kp K          &kp H        &kp COMMA            &kp DOT      &none  &kp RIGHT_CONTROL
   &kp LEFT_SHIFT  &kp ENTER  &kp LEFT_COMMAND  &kp LEFT_SHIFT  &kp SPACE   &mo 1   &mo 2  &kp BACKSPACE  &kp RIGHT_SHIFT  &kp RIGHT_COMMAND  &kp LC(B)    &kp RIGHT_SHIFT
             >;
@@ -40,11 +40,11 @@
             // |       |     |     |      |      |      |                   |      |       |       |      |       |       |
 
             bindings = <
-     &kp ESC   &none   &none        &none              &none   &none  &kp F6          &kp F7           &kp F8        &kp F9          &kp F10  &kp F11
-&bt BT_SEL 0   &none   &none        &none              &none   &none   &none        &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &kp F12
-       &none   &none   &none        &none  &kp RIGHT_COMMAND   &none   &none  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &none
-       &none   &none   &none  &bootloader   &kp LEFT_COMMAND  &trans  &trans           &none            &none         &none            &none    &none
-      &trans  &trans  &trans       &trans             &trans  &trans  &trans  &kp LEFT_SHIFT  &kp RIGHT_SHIFT        &trans           &trans   &trans
+   &kp ESC  &bt BT_SEL 0   &none   &bt BT_PRV         &bt BT_PRV   &none  &kp F6          &kp F7           &kp F8        &kp F9          &kp F10  &kp F11
+&bt BT_CLR         &none   &none        &none              &none   &none   &none        &kp HOME    &kp PAGE_DOWN   &kp PAGE_UP          &kp END  &kp F12
+     &none         &none   &none        &none  &kp RIGHT_COMMAND   &none   &none  &kp LEFT_ARROW   &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW    &none
+     &none         &none   &none  &bootloader   &kp LEFT_COMMAND  &trans  &trans           &none            &none         &none            &none    &none
+    &trans        &trans  &trans       &trans             &trans  &trans  &trans  &kp LEFT_SHIFT  &kp RIGHT_SHIFT        &trans           &trans   &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
